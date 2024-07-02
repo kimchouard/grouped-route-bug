@@ -32,6 +32,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="path/to"
+        options={{
+          title: 'Path',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'link' : 'link-outline'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

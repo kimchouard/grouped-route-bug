@@ -17,7 +17,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">This page won't load directly from Netlify.</ThemedText>
+        <ThemedText type="title">Home: This page won't load directly from Netlify.</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Unless...</ThemedText>
